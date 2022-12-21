@@ -1,27 +1,2 @@
-TO CREATE A FRUIT DO THE FOLLOWING:
+Example of using GraphQL with TS.
 
-```
-mutation
-{
-createFruit(input: {
-name: "Banana"
-category: "exotic"
-}) {
-category
-name
-id
-}
-}
-```
-
-TO GET ALL USERS DO THE FOLLOWING:
-
-```
-{
-getFruits{
-id
-name
-category
-}
-}
-```
